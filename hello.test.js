@@ -1,5 +1,6 @@
-const hello = require('./hello');
-
+const say = require('./hello');
+const sad = require('./hello');
 test('Hello equal Hello', () => {
-  expect( hello() ).toBe("Hello");
+	var s = sad();
+  expect( s ).toMatch(':((');
 });
