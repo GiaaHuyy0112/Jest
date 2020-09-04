@@ -13,7 +13,7 @@ test('Emotion', () =>{
   expect(e).toMatch(':((');
 });
 
-test("Wrong emotion", () => {
-  var e = sad();
-  expect(e).toMatch('xD');
-});
+// test("Wrong emotion", () => {
+//   var e = sad();
+//   expect(e).toMatch('xD');
+// });
